@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Rina Valentin Physiotherapy, Windhoek</title>
+  <meta name="description" content="Book an appointment with Ms. Rina Valentin, physiotherapist at Lindequist Street, Windhoek. Phone: +264 61 307025 / +264 61 226008. Email: valentin@iway.na" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand"><em>Rina Valentin</em> Physiotherapy</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+    <li><a href="tel:+264613070258" class="nav-cta">+264 61 307025</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1800&q=85');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <div class="page-hero-eyebrow">Contact</div>
+    <h1>Book an <em>Appointment</em></h1>
+  </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+  <div class="section-inner">
+    <div class="eyebrow">Get in Touch</div>
+    <h2 class="section-h" style="color:var(--navy)">We're Here to Help</h2>
+    <p class="section-sub">
+      Located at Lindequist Street in Windhoek. Call, email, or visit us to schedule an appointment — we look forward to supporting your recovery.
+    </p>
+
+    <div class="contact-layout" style="margin-top:3.5rem;">
+
+      <div class="contact-stack">
+
+        <div class="cinfo fade-up">
+          <div class="cinfo-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.12-1.12a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:+264613070258">+264 61 307025</a><br>
+            <a href="tel:+264612260088">+264 61 226008</a>
+          </div>
+        </div>
+
+        <div class="cinfo fade-up">
+          <div class="cinfo-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:valentin@iway.na">valentin@iway.na</a>
+          </div>
+        </div>
+
+        <div class="cinfo fade-up">
+          <div class="cinfo-ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Address</h4>
+            <p>Lindequist Street<br>Windhoek, Namibia</p>
+          </div>
+        </div>
+
+        <div class="hours-block fade-up">
+          <h4>Consulting Hours</h4>
+          <div class="hrow"><span>Monday – Friday</span><span>08:00 – 17:00</span></div>
+          <div class="hrow"><span>Saturday</span><span>By Appointment</span></div>
+          <div class="hrow"><span>Sunday / Public Holidays</span><span>Closed</span></div>
+        </div>
+
+      </div>
+
+      <div class="map-frame fade-up">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=17.055,-22.575,17.085,-22.545&layer=mapnik&marker=-22.559,17.070"
+          loading="lazy"
+          title="Rina Valentin Physiotherapy — Lindequist Street, Windhoek"
+        ></iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand"><em>Rina Valentin</em> Physiotherapy</div>
+  <small>&copy; 2026 · Lindequist Street, Windhoek, Namibia · All rights reserved</small>
+</footer>
+
+<script>
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

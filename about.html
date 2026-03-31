@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Ms. Rina Valentin — Physiotherapist, Windhoek</title>
+  <meta name="description" content="Learn about Ms. Rina Valentin — registered physiotherapist in Windhoek, Namibia. Specialising in manual therapy, dry needling, musculoskeletal rehabilitation, and sports injuries." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand"><em>Rina Valentin</em> Physiotherapy</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="tel:+264613070258" class="nav-cta">+264 61 307025</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1800&q=85');"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <div class="page-hero-eyebrow">About</div>
+    <h1>Your Recovery,<br>Our <em>Expertise</em></h1>
+  </div>
+</div>
+
+<!-- ABOUT SECTION -->
+<section class="about-section">
+  <div class="section-inner">
+    <div class="about-layout">
+
+      <div class="about-photo-wrap fade-up">
+        <img
+          class="about-photo"
+          src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=800&q=85"
+          alt="Ms. Rina Valentin — Physiotherapist"
+          loading="lazy"
+        />
+        <div class="about-photo-badge">
+          <strong>Physiotherapist</strong>
+          <span>Registered Practitioner</span>
+        </div>
+      </div>
+
+      <div class="about-text-wrap fade-up">
+        <div class="eyebrow">Ms. Rina Valentin</div>
+        <h2 class="section-h" style="color:var(--navy)">Movement as the<br>Foundation of <em style="color:var(--accent);font-style:italic;">Healing</em></h2>
+
+        <p>
+          Physiotherapy is one of the most versatile and impactful disciplines in modern healthcare — addressing the full range of conditions that limit movement, cause pain, and prevent people from functioning at their best. Ms. Rina Valentin has built her practice on this belief: that skilled, compassionate physiotherapy can restore quality of life in ways that medication alone cannot.
+        </p>
+        <p>
+          Based at Lindequist Street in Windhoek, Ms. Valentin provides comprehensive physiotherapy care for patients of all ages and activity levels. Her scope extends from post-operative rehabilitation and sports injuries to chronic pain management and general musculoskeletal conditions — treating each patient as an individual with a unique set of goals.
+        </p>
+
+        <blockquote class="pull">
+          <p>"The body has a remarkable capacity to heal — but it needs the right guidance, the right technique, and the right timing."</p>
+          <cite>— Ms. Rina Valentin</cite>
+        </blockquote>
+
+        <p>
+          Her clinical approach integrates manual therapy and dry needling with progressive exercise therapy — combining hands-on techniques that address the source of dysfunction with active rehabilitation strategies that build strength, stability, and lasting recovery.
+        </p>
+        <p>
+          Ms. Valentin welcomes direct bookings from patients as well as referrals from general practitioners, orthopaedic surgeons, and sports medicine physicians across Windhoek and Namibia.
+        </p>
+
+        <div class="about-tags">
+          <span class="tag">Manual Therapy</span>
+          <span class="tag">Dry Needling</span>
+          <span class="tag">Sports Injuries</span>
+          <span class="tag">Post-Op Rehabilitation</span>
+          <span class="tag">Pain Management</span>
+          <span class="tag">Exercise Therapy</span>
+          <span class="tag">Injury Prevention</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE STRIP -->
+<div class="quote-strip">
+  <blockquote>
+    Movement is medicine — the right intervention, at the right time, changes everything.
+  </blockquote>
+  <cite>— Ms. Rina Valentin, Physiotherapist</cite>
+</div>
+
+<footer>
+  <div class="footer-brand"><em>Rina Valentin</em> Physiotherapy</div>
+  <small>&copy; 2026 · Lindequist Street, Windhoek, Namibia · All rights reserved</small>
+</footer>
+
+<script>
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
